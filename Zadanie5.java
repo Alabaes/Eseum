@@ -30,9 +30,6 @@ public class Zadanie5 {
             if (a == b) {
                 return true;
             }
-            if (a == null || b == null) {
-                return false;
-            }
             int length = a.length;
             if (b.length != length) {
                 return false;
